@@ -6,7 +6,7 @@ function App() {
   const [data, setData] = useState([]);
 
   const url = "https://api.openweathermap.org/data/2.5/weather?q=";
-  const secondHalfOfUrl = "&units=metric&appid=dc54d4ba901aa8db78e5ab9bb5637dd7"
+  const secondHalfOfUrl = "&units=metric&appid=" //Use the API Key when changing the code next time
 
   const handleChange = (event) => {
     setSearchVal(event.target.value)
